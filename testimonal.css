@@ -1,0 +1,108 @@
+.testimonials-editorial-hero {
+    position: relative;
+    min-height: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 110px 0 70px 0;
+    background-color: var(--theme-ink-navy);
+    overflow: hidden;
+    border-bottom: 1.5px solid rgba(27, 55, 77, 0.15);
+}
+
+.testimonials-hero-bg-media {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.testimonials-hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.88) saturate(1.05);
+    transform: scale(1.03);
+    transition: transform 6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.testimonials-editorial-hero:hover .testimonials-hero-img {
+    transform: scale(1.08);
+}
+
+.testimonials-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        180deg,
+        rgba(27, 55, 77, 0.45) 0%,
+        rgba(27, 55, 77, 0.35) 50%,
+        rgba(27, 55, 77, 0.60) 100%
+    );
+    z-index: 2;
+}
+
+.testimonials-editorial-hero .container-fluid {
+    position: relative;
+    z-index: 3;
+}
+
+.testimonials-hero-title {
+    font-family: var(--font-cormorant);
+    font-size: clamp(2.2rem, 4.2vw, 3.5rem);
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 1.15;
+    color: #ffffff !important;
+    text-shadow: 0 3px 14px rgba(0, 0, 0, 0.65);
+    margin-bottom: 14px;
+    text-transform: uppercase;
+}
+
+.testimonials-editorial-hero .sub-heading-tag {
+    font-family: var(--font-montserrat);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 3.5px;
+    color: var(--theme-bg-stone);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.testimonials-editorial-hero .title-divider-line {
+    width: 60px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--theme-bg-stone), transparent);
+}
+
+.testimonials-hero-subtitle {
+    font-family: var(--font-montserrat);
+    font-size: clamp(0.88rem, 1.2vw, 1rem);
+    line-height: 1.8;
+    color: #ffffff;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.55);
+    max-width: 680px;
+    margin: 0 auto 24px auto;
+}
+
+@media (max-width: 991.98px) {
+    .testimonials-editorial-hero {
+        min-height: 380px;
+        padding: 85px 0 50px 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .testimonials-editorial-hero {
+        min-height: 340px;
+        padding: 75px 15px 45px 15px;
+    }
+    .testimonials-hero-subtitle {
+        font-size: 0.84rem;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+}
