@@ -157,7 +157,7 @@
 
                         <div class="floating-property-card">
                             <div class="floating-card-thumb">
-                                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=400&q=80"
+                                <img src="https://i.pinimg.com/736x/e0/40/b2/e040b2810890f7b7a2534af688efd31f.jpg"
                                     alt="Charming Family Residence">
                             </div>
                             <div class="floating-card-info">
@@ -179,8 +179,853 @@
         </div>
     </section>
 
-    <div style="height: 120vh; background-color: var(--theme-bg-stone);"></div>
+    <!-- About Section start  -->
+    <section class="about-estate-section" id="about">
+        <div class="about-bg-sketch-overlay"></div>
+        <div class="container-fluid px-lg-5 position-relative z-2">
+            <div class="row g-5 align-items-start">
 
+                <div class="col-lg-6">
+                    <div class="form-wrapper-block">
+                        <h2 class="form-title-serif">Find a Estate</h2>
+
+                        <form id="findEstateForm" class="estate-form-main">
+                            <div class="row g-3">
+
+                                <div class="col-md-6">
+                                    <div class="form-box-field">
+                                        <label for="estateName" class="box-field-label">Your Name *</label>
+                                        <input type="text" class="box-custom-input" id="estateName" required
+                                            autocomplete="name">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-box-field">
+                                        <label for="estateEmail" class="box-field-label">Email ID *</label>
+                                        <input type="email" class="box-custom-input" id="estateEmail" required
+                                            autocomplete="email">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-box-field position-relative">
+                                        <label for="estatePhone" class="box-field-label">Your Number *</label>
+                                        <div class="phone-box-wrapper">
+                                            <div class="country-select-btn" id="countryPickerBtn">
+                                                <img src="https://flagcdn.com/w40/in.png" class="flag-icon-img"
+                                                    id="selectedFlagImg" alt="India">
+                                                <span class="dial-code-txt" id="selectedCode">+91</span>
+                                                <i class="fa-solid fa-chevron-down arrow-ico"></i>
+                                            </div>
+                                            <input type="tel" class="box-custom-input phone-box-input" id="estatePhone"
+                                                required autocomplete="tel">
+                                        </div>
+
+                                        <div class="country-popup-box" id="countryDropdown">
+                                            <div class="search-input-wrap">
+                                                <i class="fa-solid fa-magnifying-glass"></i>
+                                                <input type="text" id="countrySearchInput"
+                                                    placeholder="Search country...">
+                                            </div>
+                                            <ul class="country-list-view" id="countryList"></ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-box-field">
+                                        <label for="estateLocation" class="box-field-label">Your Location *</label>
+                                        <input type="text" class="box-custom-input" id="estateLocation" required>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-box-field">
+                                        <label for="estateMessage" class="box-field-label">Message (Optional)</label>
+                                        <textarea class="box-custom-input box-custom-textarea" id="estateMessage"
+                                            rows="3"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-3">
+                                <button type="submit" class="btn-solid-full">
+                                    <span>Submit</span>
+                                </button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="about-content-block">
+                        <div>
+                            <div class="section-title-wrap">
+                                <!-- <span class="sub-heading-tag">WHO WE ARE</span> -->
+                                <h2 class="about-title-serif">ABOUT US</h2>
+                            </div>
+
+                            <div class="rera-badge-row mb-4">
+                                <span class="dark-rera-pill">
+                                    <i class="fa-solid fa-location-dot me-1"></i> RERA NO. : UPRERAAGT00235/11/2025
+                                </span>
+                            </div>
+
+                            <div class="about-paragraphs">
+                                <p>
+                                    Investors Planet Realty is a full-service company for all your real estate needs.
+                                    Whether you're looking to buy or sell a home, invest in real estate, or need
+                                    property management services, our experienced team is here to help you every step of
+                                    the way. Our deep knowledge of the local market allows us to confidently guide you
+                                    through the chaos of the real estate world.
+                                </p>
+                                <p>
+                                    Our commitment to providing personalized service to each customer sets us apart. We
+                                    take the time to understand your unique goals, preferences and tailor our services
+                                    accordingly. In addition to traditional real estate services, we also specialize in
+                                    helping investors make profitable investments, two and building wealth, and we have
+                                    the expertise and experience to help you make your investment decisions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- <div class="about-action-bottom mt-2">
+                            <a href="#services" class="explore-services-btn">
+                                <span>Know More</span>
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- property section  -->
+<section class="property-types-section" id="property-types">
+    <div class="container-fluid px-lg-5">
+        
+        <div class="text-center mb-5 animate__animated animate__fadeIn">
+            <span class="sub-heading-tag">ALL OVER INDIA</span>
+            <h2 class="editorial-main-title">PROPERTY TYPE</h2>
+            <div class="title-divider-line mx-auto"></div>
+        </div>
+
+        <div class="swiper propertyTypeSwiper">
+            <div class="swiper-wrapper">
+                
+                <div class="swiper-slide">
+                    <div class="property-editorial-card">
+                        <div class="card-img-holder">
+                            <img src="https://i.pinimg.com/1200x/5a/16/12/5a1612f79c98d0d67f9897b598228649.jpg" alt="Commercial Properties">
+                            <div class="card-soft-base-overlay"></div>
+                        </div>
+
+                        <div class="card-top-meta">
+                            <span class="tag-listing-count">5 LISTINGS</span>
+                        </div>
+
+                        <div class="card-hover-curtain">
+                            <div class="curtain-content">
+                                <span class="curtain-eyebrow">EXPLORE COLLECTION</span>
+                                <h3 class="curtain-title">COMMERCIAL</h3>
+                                <a href="#commercial" class="btn-view-property">
+                                    <span>View Property</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                        <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-default-footer">
+                            <span class="footer-eyebrow">PORTFOLIO</span>
+                            <h3 class="footer-title">COMMERCIAL</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="property-editorial-card">
+                        <div class="card-img-holder">
+                            <img src="https://i.pinimg.com/736x/b8/08/d7/b808d746e11e2a88268e295a4e2df7ee.jpg" alt="Residential Properties">
+                            <div class="card-soft-base-overlay"></div>
+                        </div>
+
+                        <div class="card-top-meta">
+                            <span class="tag-listing-count">4 LISTINGS</span>
+                        </div>
+
+                        <div class="card-hover-curtain">
+                            <div class="curtain-content">
+                                <span class="curtain-eyebrow">EXPLORE COLLECTION</span>
+                                <h3 class="curtain-title">RESIDENTIAL</h3>
+                                <a href="#residential" class="btn-view-property">
+                                    <span>View Property</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                        <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-default-footer">
+                            <span class="footer-eyebrow">PORTFOLIO</span>
+                            <h3 class="footer-title">RESIDENTIAL</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="property-editorial-card">
+                        <div class="card-img-holder">
+                            <img src="https://i.pinimg.com/736x/8e/13/d9/8e13d9ebfd80e13d82596c2e0ad06fe5.jpg" alt="Luxury Villas">
+                            <div class="card-soft-base-overlay"></div>
+                        </div>
+
+                        <div class="card-top-meta">
+                            <span class="tag-listing-count">8 LISTINGS</span>
+                        </div>
+
+                        <div class="card-hover-curtain">
+                            <div class="curtain-content">
+                                <span class="curtain-eyebrow">EXPLORE COLLECTION</span>
+                                <h3 class="curtain-title">LUXURY VILLAS</h3>
+                                <a href="#villas" class="btn-view-property">
+                                    <span>View Property</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                        <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-default-footer">
+                            <span class="footer-eyebrow">PORTFOLIO</span>
+                            <h3 class="footer-title">LUXURY VILLAS</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- new  -->
+ <section class="projects-grid-section" id="projects">
+    <div class="container-fluid px-lg-5">
+        
+        <div class="text-center mb-5 animate__animated animate__fadeIn">
+            <span class="sub-heading-tag">ALL OVER INDIA</span>
+            <h2 class="editorial-main-title">MOST SELLING PROJECTS</h2>
+            <div class="title-divider-line mx-auto"></div>
+        </div>
+
+        <!-- 2-Row Swiper Grid -->
+        <div class="swiper projectsGridSwiper">
+            <div class="swiper-wrapper">
+                
+                <!-- Card 1 -->
+                <div class="swiper-slide">
+                    <div class="project-card-item">
+                        <div class="project-img-box">
+                            <img src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=800" alt="M3M Noida">
+                            <!-- Image Hover Curtain -->
+                            <div class="project-hover-curtain">
+                                <span class="curtain-tag">COMMERCIAL & RETAIL</span>
+                                <h4 class="curtain-name">M3M Noida</h4>
+                                <a href="#m3m" class="btn-view-property">
+                                    <span>View Property</span>
+                                    <svg class="custom-nav-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                        <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content-box">
+                            <h3 class="project-title">M3M Noida</h3>
+                            <p class="project-desc">M3M The Line offers a luxurious retail experience with a unique design.</p>
+                            <a href="#m3m" class="btn-reachout-style">
+                                <span>Learn More</span>
+                                <svg class="learn-more-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                    <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="swiper-slide">
+                    <div class="project-card-item">
+                        <div class="project-img-box">
+                            <img src="https://images.pexels.com/photos/208736/pexels-photo-208736.jpeg?auto=compress&cs=tinysrgb&w=800" alt="EON Noida">
+                            <div class="project-hover-curtain">
+                                <span class="curtain-tag">IT & BUSINESS SUITES</span>
+                                <h4 class="curtain-name">EON Noida</h4>
+                                <a href="#eon" class="btn-view-property">
+                                    <span>View Property</span>
+                                    <svg class="custom-nav-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                        <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content-box">
+                            <h3 class="project-title">EON Noida</h3>
+                            <p class="project-desc">The life we always aspired for, the life we have always wanted to live is here.</p>
+                            <a href="#eon" class="btn-reachout-style">
+                                <span>Learn More</span>
+                                <svg class="learn-more-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                    <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="swiper-slide">
+                    <div class="project-card-item">
+                        <div class="project-img-box">
+                            <img src="https://images.pexels.com/photos/221540/pexels-photo-221540.jpeg?auto=compress&cs=tinysrgb&w=800" alt="GYGY Noida">
+                            <div class="project-hover-curtain">
+                                <span class="curtain-tag">TECH CORRIDOR</span>
+                                <h4 class="curtain-name">GYGY Noida</h4>
+                                <a href="#gygy" class="btn-view-property">
+                                    <span>View Property</span>
+                                    <svg class="custom-nav-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                        <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content-box">
+                            <h3 class="project-title">GYGY Noida</h3>
+                            <p class="project-desc">Project Site : Plot Number-02, Sector-140, Noida, Uttar Pradesh - 201305.</p>
+                            <a href="#gygy" class="btn-reachout-style">
+                                <span>Learn More</span>
+                                <svg class="learn-more-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                    <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="swiper-slide">
+                    <div class="project-card-item">
+                        <div class="project-img-box">
+                            <img src="https://images.pexels.com/photos/280229/pexels-photo-280229.jpeg?auto=compress&cs=tinysrgb&w=800" alt="THE LINE AVENUE">
+                            <div class="project-hover-curtain">
+                                <span class="curtain-tag">PREMIUM RETAIL</span>
+                                <h4 class="curtain-name">THE LINE AVENUE</h4>
+                                <a href="#line-avenue" class="btn-view-property">
+                                    <span>View Property</span>
+                                    <svg class="custom-nav-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                        <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content-box">
+                            <h3 class="project-title">THE LINE AVENUE</h3>
+                            <p class="project-desc">M3M The Line offers a luxurious retail experience with a unique design.</p>
+                            <a href="#line-avenue" class="btn-reachout-style">
+                                <span>Learn More</span>
+                                <svg class="learn-more-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                    <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="swiper-slide">
+                    <div class="project-card-item">
+                        <div class="project-img-box">
+                            <img src="https://images.pexels.com/photos/323775/pexels-photo-323775.jpeg?auto=compress&cs=tinysrgb&w=800" alt="THE CULLINAN AVENUE">
+                            <div class="project-hover-curtain">
+                                <span class="curtain-tag">LUXURY RESIDENCES</span>
+                                <h4 class="curtain-name">THE CULLINAN AVENUE</h4>
+                                <a href="#cullinan" class="btn-view-property">
+                                    <span>View Property</span>
+                                    <svg class="custom-nav-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                        <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content-box">
+                            <h3 class="project-title">THE CULLINAN AVENUE</h3>
+                            <p class="project-desc">Sector 94 emerges as a thriving and well-linked neighbourhood in Noida.</p>
+                            <a href="#cullinan" class="btn-reachout-style">
+                                <span>Learn More</span>
+                                <svg class="learn-more-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                    <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="swiper-slide">
+                    <div class="project-card-item">
+                        <div class="project-img-box">
+                            <img src="https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg?auto=compress&cs=tinysrgb&w=800" alt="BHUTANI Grandthum">
+                            <div class="project-hover-curtain">
+                                <span class="curtain-tag">COMMERCIAL LANDMARK</span>
+                                <h4 class="curtain-name">BHUTANI Grandthum</h4>
+                                <a href="#grandthum" class="btn-view-property">
+                                    <span>View Property</span>
+                                    <svg class="custom-nav-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                        <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content-box">
+                            <h3 class="project-title">BHUTANI Grandthum</h3>
+                            <p class="project-desc">Bhutani Grandthum is a commercial property that the perfect commercial hub.</p>
+                            <a href="#grandthum" class="btn-reachout-style">
+                                <span>Learn More</span>
+                                <svg class="learn-more-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                    <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="swiper-slide">
+                    <div class="project-card-item">
+                        <div class="project-img-box">
+                            <img src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Godrej Majesty">
+                            <div class="project-hover-curtain">
+                                <span class="curtain-tag">PREMIUM TOWERS</span>
+                                <h4 class="curtain-name">Godrej Majesty</h4>
+                                <a href="#godrej" class="btn-view-property">
+                                    <span>View Property</span>
+                                    <svg class="custom-nav-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                        <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content-box">
+                            <h3 class="project-title">Godrej Majesty</h3>
+                            <p class="project-desc">Godrej Majesty is basically a residential property spot in Greater Noida Sec 12.</p>
+                            <a href="#godrej" class="btn-reachout-style">
+                                <span>Learn More</span>
+                                <svg class="learn-more-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                    <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="swiper-slide">
+                    <div class="project-card-item">
+                        <div class="project-img-box">
+                            <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800" alt="AU Sunflower Aditya World City">
+                            <div class="project-hover-curtain">
+                                <span class="curtain-tag">TOWNSHIP LIVING</span>
+                                <h4 class="curtain-name">AU Sunflower</h4>
+                                <a href="#sunflower" class="btn-view-property">
+                                    <span>View Property</span>
+                                    <svg class="custom-nav-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                        <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content-box">
+                            <h3 class="project-title">AU Sunflower</h3>
+                            <p class="project-desc">AU Sunflower Aditya World City is basically a residential property spot in Ghaziabad.</p>
+                            <a href="#sunflower" class="btn-reachout-style">
+                                <span>Learn More</span>
+                                <svg class="learn-more-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                    <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 9 -->
+                <div class="swiper-slide">
+                    <div class="project-card-item">
+                        <div class="project-img-box">
+                            <img src="https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800" alt="EROS Sampoornam">
+                            <div class="project-hover-curtain">
+                                <span class="curtain-tag">SIGNATURE HOMES</span>
+                                <h4 class="curtain-name">EROS Sampoornam</h4>
+                                <a href="#eros" class="btn-view-property">
+                                    <span>View Property</span>
+                                    <svg class="custom-nav-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                        <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content-box">
+                            <h3 class="project-title">EROS Sampoornam</h3>
+                            <p class="project-desc">Eros Sampoornam is basically a residential property spot in Greater Noida Sec 2.</p>
+                            <a href="#eros" class="btn-reachout-style">
+                                <span>Learn More</span>
+                                <svg class="learn-more-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                    <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Clean Editorial Text Navigation (PREV / NEXT) -->
+        <div class="projects-text-nav-bar">
+            <button class="nav-text-btn prev-project-btn" aria-label="Previous">PREV</button>
+            <div class="nav-center-divider"></div>
+            <button class="nav-text-btn next-project-btn" aria-label="Next">NEXT</button>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="marketed-projects-section" id="marketed-projects">
+    <div class="container-fluid px-lg-5">
+        
+        <div class="text-center mb-5 animate__animated animate__fadeIn">
+            <span class="sub-heading-tag">OUR PROJECTS</span>
+            <h2 class="editorial-main-title">MARKETED PROJECTS</h2>
+            <div class="title-divider-line mx-auto"></div>
+        </div>
+
+        <div class="row g-3 g-lg-4 justify-content-center">
+            
+            <div class="col-xl-3 col-lg-3 col-md-6 col-6">
+                <div class="partner-luxury-card">
+                    <span class="partner-index-tag"><span class="rotate-number">01</span></span>
+                    <div class="partner-img-wrapper">
+                        <img src="images/ace.webp" alt="ACE Group" class="partner-brand-logo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-6 col-6">
+                <div class="partner-luxury-card">
+                    <span class="partner-index-tag"><span class="rotate-number">02</span></span>
+                    <div class="partner-img-wrapper">
+                        <img src="images/arihant.webp" alt="Arihant Group" class="partner-brand-logo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-6 col-6">
+                <div class="partner-luxury-card">
+                    <span class="partner-index-tag"><span class="rotate-number">03</span></span>
+                    <div class="partner-img-wrapper">
+                        <img src="images/bhutani.webp" alt="Bhutani Infra" class="partner-brand-logo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-6 col-6">
+                <div class="partner-luxury-card">
+                    <span class="partner-index-tag"><span class="rotate-number">04</span></span>
+                    <div class="partner-img-wrapper">
+                        <img src="images/eon.webp" alt="EON Eye of Noida" class="partner-brand-logo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-6 col-6">
+                <div class="partner-luxury-card">
+                    <span class="partner-index-tag"><span class="rotate-number">05</span></span>
+                    <div class="partner-img-wrapper">
+                        <img src="images/Godrej-properties-logo-2.webp" alt="Godrej Properties" class="partner-brand-logo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-6 col-6">
+                <div class="partner-luxury-card">
+                    <span class="partner-index-tag"><span class="rotate-number">06</span></span>
+                    <div class="partner-img-wrapper">
+                        <img src="images/gygy.webp" alt="GYGY Built For Generations" class="partner-brand-logo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-6 col-6">
+                <div class="partner-luxury-card">
+                    <span class="partner-index-tag"><span class="rotate-number">07</span></span>
+                    <div class="partner-img-wrapper">
+                        <img src="images/M3M.webp" alt="M3M India" class="partner-brand-logo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-6 col-6">
+                <div class="partner-luxury-card">
+                    <span class="partner-index-tag"><span class="rotate-number">08</span></span>
+                    <div class="partner-img-wrapper">
+                        <img src="images/T&T.webp" alt="T&T Group" class="partner-brand-logo">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!-- new sectio  -->
+ <section class="property-types-section" id="blogs">
+    <div class="container-fluid px-lg-5">
+        
+        <div class="text-center mb-5 animate__animated animate__fadeIn">
+            <span class="sub-heading-tag">WATCH OUR BLOGS</span>
+            <h2 class="editorial-main-title">OUR BLOGS</h2>
+            <div class="title-divider-line mx-auto"></div>
+        </div>
+
+        <div class="swiper propertyTypeSwiper">
+            <div class="swiper-wrapper">
+                
+                <div class="swiper-slide">
+                    <div class="luxury-prop-curtain-card">
+                        <div class="prop-card-media">
+                            <img src="https://i.pinimg.com/1200x/dc/f2/68/dcf268045fc0e8f0fa625f6b121f0279.jpg" alt="Bhutani CyberPark">
+                            <div class="prop-base-shadow"></div>
+                        </div>
+
+                        <div class="prop-top-pill">
+                            <span>COMMERCIAL PROPERTY</span>
+                        </div>
+
+                        <div class="prop-bottom-default">
+                            <span class="prop-sub-label">Dec 10 2023</span>
+                            <h3 class="prop-main-label">Bhutani CyberPark</h3>
+                        </div>
+
+                        <div class="prop-hover-full-curtain">
+                            <span class="curtain-eyebrow-text">EXPLORE ARTICLE</span>
+                            <h3 class="curtain-headline-text">Bhutani CyberPark</h3>
+                            <a href="#blog-bhutani" class="btn-curtain-view">
+                                <span>READ ARTICLE</span>
+                                <svg class="learn-more-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                    <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="luxury-prop-curtain-card">
+                        <div class="prop-card-media">
+                            <img src="https://i.pinimg.com/1200x/65/45/d6/6545d678170a309974577d5296203576.jpg" alt="M3M Noida">
+                            <div class="prop-base-shadow"></div>
+                        </div>
+
+                        <div class="prop-top-pill">
+                            <span>COMMERCIAL PROPERTY</span>
+                        </div>
+
+                        <div class="prop-bottom-default">
+                            <span class="prop-sub-label">Jan 21 2024</span>
+                            <h3 class="prop-main-label">M3M Noida</h3>
+                        </div>
+
+                        <div class="prop-hover-full-curtain">
+                            <span class="curtain-eyebrow-text">EXPLORE ARTICLE</span>
+                            <h3 class="curtain-headline-text">M3M Noida</h3>
+                            <a href="#blog-m3m" class="btn-curtain-view">
+                                <span>READ ARTICLE</span>
+                                <svg class="learn-more-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                    <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="luxury-prop-curtain-card">
+                        <div class="prop-card-media">
+                            <img src="https://i.pinimg.com/736x/f4/4b/65/f44b65c54dd55868e9aa371f8ecfe411.jpg" alt="ACE Group Noida">
+                            <div class="prop-base-shadow"></div>
+                        </div>
+
+                        <div class="prop-top-pill">
+                            <span>RESIDENTIAL PROPERTY</span>
+                        </div>
+
+                        <div class="prop-bottom-default">
+                            <span class="prop-sub-label">Feb 11 2024</span>
+                            <h3 class="prop-main-label">ACE Group Noida</h3>
+                        </div>
+
+                        <div class="prop-hover-full-curtain">
+                            <span class="curtain-eyebrow-text">EXPLORE ARTICLE</span>
+                            <h3 class="curtain-headline-text">ACE Group Noida</h3>
+                            <a href="#blog-ace" class="btn-curtain-view">
+                                <span>READ ARTICLE</span>
+                                <svg class="learn-more-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                    <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="projects-text-nav-bar mt-4">
+            <button class="nav-text-btn prev-prop-btn" aria-label="Previous Blogs">PREV</button>
+            <div class="nav-center-divider"></div>
+            <button class="nav-text-btn next-prop-btn" aria-label="Next Blogs">NEXT</button>
+        </div>
+
+    </div>
+</section>
+<!-- new section  -->
+ <section class="cinematic-video-section" id="featured-video">
+    <div class="container-fluid px-0">
+        
+        <div class="text-center mb-5 animate__animated animate__fadeIn">
+            <span class="sub-heading-tag">CINEMATIC WALKTHROUGH</span>
+            <h2 class="editorial-main-title">FEATURED LANDMARK</h2>
+            <div class="title-divider-line mx-auto"></div>
+        </div>
+
+        <div class="fullwidth-video-wrapper">
+            <div class="video-container-ratio">
+                <iframe 
+                    src="https://www.youtube.com/embed/Rlj3gzHr7QU?rel=0&modestbranding=1&autohide=1&showinfo=0" 
+                    title="Bhutani Cyber Park | Office Spaces Sector 62, Noida | Bhutani Group" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- footer  -->
+ <a href="tel:+911234567" class="floating-call-btn" aria-label="Call Us">
+    <div class="call-btn-pulse"></div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M6.62 10.79a15.053 15.053 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+    </svg>
+</a>
+
+<footer class="luxury-editorial-footer" id="contact">
+    <div class="container-fluid px-lg-5">
+        <div class="row g-4 g-lg-5">
+            
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-block">
+                    <h4 class="footer-heading">About Us</h4>
+                    <div class="footer-brand-logo-wrap">
+                        <img src="images/logo.webp" alt="Investors Planet Realty" class="footer-logo-img">
+                    </div>
+                    <p class="footer-text">Investors Planet Realty is a full-service company for all your real estate needs.....</p>
+                    <a href="#about" class="btn-know-more">
+                        <span>Know more</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                            <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-block">
+                    <h4 class="footer-heading">Useful Links</h4>
+                    <ul class="footer-nav-list">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#career">Career</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#commercial">Commercial</a></li>
+                        <li><a href="#residential">Residential</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-block">
+                    <h4 class="footer-heading">Contact Info</h4>
+                    <ul class="footer-contact-details">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                            <a href="tel:+919555891638">+91 9555891638</a>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                            <a href="mailto:info@investorsplanet.co.in">info@investorsplanet.co.in</a>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                            <span>Address : G-08, D-216, Block-D, Sector-63, Noida, U.P.-201301</span>
+                        </li>
+                    </ul>
+                    
+                    <div class="footer-social-tray">
+                        <a href="#facebook" aria-label="Facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="#instagram" aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                        <a href="#twitter" aria-label="Twitter">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-block">
+                    <h4 class="footer-heading">Newsletter</h4>
+                    <p class="footer-text">Subscribe to our newsletter to receive the latest updates directly.</p>
+                    <form class="footer-newsletter-form" onsubmit="event.preventDefault();">
+                        <div class="newsletter-input-group">
+                            <input type="email" placeholder="Enter your email" required class="newsletter-input">
+                        </div>
+                        <button type="submit" class="btn-newsletter-subscribe">
+                            <span>SUBSCRIBE</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 11">
+                                <path d="m33.5 0-.7.7L37.1 5H0v1h37.1l-4.3 4.3.7.7L39 5.5z"></path>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom-bar">
+            <p class="copyright-text">Copyright &copy; 2024 | <span>Investors Planet Realty</span>. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
