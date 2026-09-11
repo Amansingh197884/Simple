@@ -25,100 +25,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    font-family: var(--font-montserrat);
-    background-color: var(--theme-bg-stone);
-    color: var(--theme-text-dark);
-    line-height: 1.6;
-    overflow-x: hidden;
-}
-
-a {
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
-
-.site-header-holder {
-    position: relative;
-    width: 100%;
-    z-index: 1000;
-}
-
-.top-announcement-strip {
-    background: var(--theme-ink-navy);
-    color: var(--theme-pure-white);
-    padding: 8px 0;
-    font-size: 0.8rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    transition: all 0.35s ease;
-}
-
-.top-shimmer-text {
-    font-family: var(--font-montserrat);
-    font-weight: 600;
-    font-size: 0.76rem;
-    letter-spacing: 2px;
-    background: linear-gradient(90deg, #ffffff 0%, #a8c2d8 50%, #ffffff 100%);
-    background-size: 200% auto;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    animation: topShimmer 3.5s linear infinite;
-}
-
-@keyframes topShimmer {
-    to {
-        background-position: 200% center;
-    }
-}
-
-.top-contact-item {
-    font-family: var(--font-montserrat);
-    color: #e2e8f0;
-    font-size: 0.78rem;
-    font-weight: 500;
-    display: inline-flex;
-    align-items: center;
-    gap: 7px;
-    letter-spacing: 0.5px;
-}
-
-.top-contact-item i {
-    color: #93b5d3;
-}
-
-.top-contact-item:hover {
-    color: var(--theme-pure-white);
-}
-
-.mobile-marquee-wrap {
-    display: none;
-    overflow: hidden;
-    white-space: nowrap;
-    width: 100%;
-}
-
-.marquee-track {
-    display: inline-block;
-    padding-left: 100%;
-    animation: marqueeScroll 16s linear infinite;
-    font-family: var(--font-montserrat);
-    font-size: 0.75rem;
-    font-weight: 500;
-    letter-spacing: 1.5px;
-    color: #ffffff;
-}
-
-@keyframes marqueeScroll {
-    0% {
-        transform: translate(0, 0);
-    }
-
-    100% {
-        transform: translate(-100%, 0);
-    }
-}
-
 .custom-navbar {
     background: var(--theme-bg-stone);
     padding: 12px 0;
@@ -253,6 +159,100 @@ a {
     color: var(--theme-pure-white);
     border-color: var(--theme-ink-navy);
     transform: translateY(-2px);
+}
+
+body {
+    font-family: var(--font-montserrat);
+    background-color: var(--theme-bg-stone);
+    color: var(--theme-text-dark);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.site-header-holder {
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+}
+
+.top-announcement-strip {
+    background: var(--theme-ink-navy);
+    color: var(--theme-pure-white);
+    padding: 8px 0;
+    font-size: 0.8rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    transition: all 0.35s ease;
+}
+
+.top-shimmer-text {
+    font-family: var(--font-montserrat);
+    font-weight: 600;
+    font-size: 0.76rem;
+    letter-spacing: 2px;
+    background: linear-gradient(90deg, #ffffff 0%, #a8c2d8 50%, #ffffff 100%);
+    background-size: 200% auto;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: topShimmer 3.5s linear infinite;
+}
+
+@keyframes topShimmer {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.top-contact-item {
+    font-family: var(--font-montserrat);
+    color: #e2e8f0;
+    font-size: 0.78rem;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    letter-spacing: 0.5px;
+}
+
+.top-contact-item i {
+    color: #93b5d3;
+}
+
+.top-contact-item:hover {
+    color: var(--theme-pure-white);
+}
+
+.mobile-marquee-wrap {
+    display: none;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.marquee-track {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marqueeScroll 16s linear infinite;
+    font-family: var(--font-montserrat);
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+}
+
+@keyframes marqueeScroll {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-100%, 0);
+    }
 }
 
 .reach-out-btn {
@@ -2479,3 +2479,4 @@ textarea:-webkit-autofill {
         height: 22px;
     }
 }
+/* css other banner  */
